@@ -1,10 +1,7 @@
 Simple search
 =============
 
-Index and search based on [XPLR topics API] [1], using the python [whoosh] [2] index and search engine
-
-      [1]: https://xplr.com/developers/    "XPLR API"
-      [2]: https://bitbucket.org/mchaput/whoosh/wiki/Home	"Whoosh Python search library"
+Index and search based on [XPLR topics API](https://xplr.com/developers/), using the python [whoosh](https://bitbucket.org/mchaput/whoosh/wiki/Home) index and search engine.
 
 Description
 -----------
@@ -36,7 +33,7 @@ This application is realased under the MIT licence
 Prerequisites
 -------------
 
-- Get an XPLR API key on www.xplr.com, the key hash is to be passed as an argument to the script
+- Get an XPLR account and API key on www.xplr.com, the key hash is to be passed as an argument to the script
 
 
 Usage
