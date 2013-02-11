@@ -1,10 +1,10 @@
 Simple search
 =============
 
-Index and search based on [XPLR topics API][1], using the python [whoosh][2] index and search engine
+Index and search based on [XPLR topics API] [1], using the python [whoosh] [2] index and search engine
 
-  [1]: https://xplr.com/developers/    XPLR API
-  [2]: https://bitbucket.org/mchaput/whoosh/wiki/Home    Whoosh Python search library
+      [1]: https://xplr.com/developers/    "XPLR API"
+      [2]: https://bitbucket.org/mchaput/whoosh/wiki/Home	"Whoosh Python search library"
 
 Description
 -----------
