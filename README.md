@@ -3,7 +3,7 @@ Simple search
 
 Index and search based on [XPLR topics API](https://xplr.com/developers/), using the python [whoosh](https://bitbucket.org/mchaput/whoosh/wiki/Home) index and search engine.
 
-[Dedicated page](https://xplr.com/apps/apps-python-simplesearch)
+XPLR dedicated [app page](https://xplr.com/apps/apps-python-simplesearch).
 
 Browse [all software from XPLR](https://xplr.com/apps).
 
