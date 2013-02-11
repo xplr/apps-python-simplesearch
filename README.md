@@ -3,26 +3,25 @@ Simple search
 
 Index and search based on [XPLR topics API](https://xplr.com/developers/), using the python [whoosh](https://bitbucket.org/mchaput/whoosh/wiki/Home) index and search engine.
 
+[Dedicated page](https://xplr.com/apps/apps-python-simplesearch)
 Browse [all software from XPLR](https://xplr.com/apps).
 
 Description
 -----------
 
-This application permits the following operations :
+This application allows the following operations :
 
-* *Index* a set of documents : From an url list, get XPLR prediction on the resources located at these
-urls, and indexes the topics returned using the whoosh indexing engine.
+* *Index* a set of documents : From an URL list, get XPLR prediestimate topics from each URL content with XPLR API and indexes the topics returned using the whoosh indexing engine.
 
-* *Search* : Performs full text search on topics on the index, returning the list of urls
-that matched the query
+* *Search* : Performs full text search on topics, and returns the list of URLs that matched the query.
 
 Licence
 -------
 
-This application is realased under the MIT licence
+This application is released under the MIT licence
 
 > 
-> Copyright (c) 2012 Xplr Software Inc
+> Copyright (c) 2012-2013 Xplr Software Inc
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 > 
@@ -35,7 +34,7 @@ This application is realased under the MIT licence
 Prerequisites
 -------------
 
-- Get an XPLR account and API key on www.xplr.com, the key hash is to be passed as an argument to the script
+- Get an XPLR account and API key on https://www.xplr.com, the API key is to be passed as an argument to the script.
 
 
 Usage
