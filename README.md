@@ -10,10 +10,10 @@ Description
 
 This application permits the following operations :
 
-* Index a set of documents : From an url list, get XPLR prediction on the resources located at these
+* *Index* a set of documents : From an url list, get XPLR prediction on the resources located at these
 urls, and indexes the topics returned using the whoosh indexing engine.
 
-* Seerch : Performs full text search on topics on the index, returning the list of urls
+* *Search* : Performs full text search on topics on the index, returning the list of urls
 that matched the query
 
 Licence
