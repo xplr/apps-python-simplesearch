@@ -65,3 +65,12 @@ Usage
 
 
 
+### Examples
+
+Indexing urls contained in ~/my_url_list into a whoosh index in /tmp/index_dir with XPLR predicted topics: 
+
+    python topicssearch.py  -i -d /tmp/index_dir -s ~/my_url_list -S -K 46eb069e-3d2b-11e2-9eeb-080027752be2 -H api.xplr.com
+
+Searching for "United States" in the topics index:
+
+    python topicssearch.py  -d /tmp/index_dir -q "United States"
