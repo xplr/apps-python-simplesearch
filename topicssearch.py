@@ -119,16 +119,16 @@ def get_prediction(url,topics_count=5):
                      "topics_limit":%d,
                      "qualifiers":true,
                      "filters_in":["content_extraction"],
-                     "filters_out":["content"]
+                     "filters_out":["content","title"]
                   },
                   "document":{"uri":"%s"}}
             '''%(topics_count,url)
             
     # Create an urllib2 Request object
     if XPLR_SSL:
-        xplrurl='https://%s/topics/predict'%(XPLR_HOST,)
+        xplrurl='https://%s/predict'%(XPLR_HOST,)
     else:
-        xplrurl='http://%s/topics/predict'%(XPLR_HOST,)
+        xplrurl='http://%s/predict'%(XPLR_HOST,)
     req = urllib2.Request(xplrurl, data)
     
     # Add api key to the HTTP header
@@ -224,7 +224,7 @@ if __name__ == '__main__':
     group.add_option("-P", "--port", dest="apiport",
                       help="XPLR API port")
     group.add_option("-S", "--ssl", dest="apissl",
-                      action="store_true", default=True,
+                      action="store_true", default=False,
                       help="use ssl on XPLR calls")
     parser.add_option_group(group)
 
@@ -247,6 +247,7 @@ if __name__ == '__main__':
             parser.error('XPLR host required')
         XPLR_HOST=options.apihost
         XPLR_SSL=options.apissl
+        
         if options.apiport:
             XPLR_HOST+=":"+options.apiport
         if options.doflush:
