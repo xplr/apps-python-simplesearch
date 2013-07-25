@@ -118,8 +118,8 @@ def get_prediction(url,topics_count=5):
                      "labels":true,
                      "topics_limit":%d,
                      "qualifiers":true,
-                     "content_extraction":true,
-                     "return_content":true
+                     "filters_in":["content_extraction"],
+                     "filters_out":["content"]
                   },
                   "document":{"uri":"%s"}}
             '''%(topics_count,url)
